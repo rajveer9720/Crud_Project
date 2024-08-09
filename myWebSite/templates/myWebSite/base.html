@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Project - Developed By Aryan Sharma</title>
+    <link rel="stylesheet" href="{% static 'myWebSite/css/bootstrap.css' %}">
+</head>
+<body>
+    <div class="conatiner mt-5"></div>
+    <h2 class="text-center alert alert-danger">Function Based View Model Form Project</h2>
+    {% block content %} {% endblock content %}
+    
+<script src="{% static 'myWebSite/Js/jQuery.js' %}"></script>
+<script src="{% static 'myWebSite/Js/popper.js' %}"></script>
+<script src="{% static 'myWebSite/Js/bootstrap.min.js' %}"></script>
+</body>
+</html>
